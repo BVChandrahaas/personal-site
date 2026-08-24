@@ -26,18 +26,18 @@ export default async function ArticlePage({
     <>
       <Nav />
       <main className="mx-auto max-w-2xl px-6 py-10 flex-1 w-full">
-        <Link href="/blog" className="text-sm text-text-accent mb-5 inline-block">
+        <Link href="/blog" className="text-base text-text-accent mb-5 inline-block">
           ← Back to blog
         </Link>
 
-        <span className="text-[11px] px-2 py-0.5 rounded-md bg-bg-accent text-text-accent">
+        <span className="text-xs px-2 py-0.5 rounded-md bg-bg-accent text-text-accent">
           {post.tag}
         </span>
 
-        <h1 className="font-voice text-2xl text-text-primary mt-3.5 mb-2 leading-tight">
+        <h1 className="font-voice text-3xl text-text-primary mt-3.5 mb-2 leading-tight">
           {post.title}
         </h1>
-        <p className="text-xs text-text-muted mb-6">
+        <p className="text-sm text-text-muted mb-6">
           {new Date(post.date).toLocaleDateString("en-US", {
             month: "short",
             day: "numeric",

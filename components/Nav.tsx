@@ -12,10 +12,10 @@ export default function Nav() {
   return (
     <header className="border-b border-border">
       <div className="mx-auto max-w-3xl flex items-center justify-between px-6 py-4">
-        <Link href="/" className="text-sm font-medium text-text-primary">
+        <Link href="/" className="text-base font-medium text-text-primary">
           chandrahaas.dev
         </Link>
-        <nav className="flex gap-5 text-sm text-text-secondary">
+        <nav className="flex gap-5 text-base text-text-secondary">
           {links.map((link) => (
             <Link key={link.href} href={link.href} className="hover:text-text-primary">
               {link.label}
