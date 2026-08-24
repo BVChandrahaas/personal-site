@@ -82,16 +82,19 @@ export default function Home() {
               title="Monkeypox lesion detection"
               description="Empirical study on classification of monkeypox skin lesions."
               meta="ICISML 2022"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9hKACrgAAAAJ&citation_for_view=9hKACrgAAAAJ:u5HHmVD_uO8C"
             />
             <Card
               title="Mobile recommendation systems"
               description="Hybrid content & collaborative filtering approach for phone recommendations."
               meta="ICISML 2023"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9hKACrgAAAAJ&citation_for_view=9hKACrgAAAAJ:u-x6o8ySG0sC"
             />
             <Card
               title="Synapsys"
               description="ML pipeline for automatic video summarization."
               meta="ICISML 2024"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9hKACrgAAAAJ&citation_for_view=9hKACrgAAAAJ:d1gkVwhDpl0C"
             />
             <Card
               title="Demeter ensemble framework"
