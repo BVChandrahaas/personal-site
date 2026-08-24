@@ -25,11 +25,11 @@ export default function Card({
   );
 
   if (href) {
+    const isExternal = href.startsWith("http");
     return (
       <a
         href={href}
-        target="_blank"
-        rel="noopener noreferrer"
+        {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
         className="bg-surface-2 border border-border rounded-xl p-4 block hover:border-border-strong"
       >
         {content}

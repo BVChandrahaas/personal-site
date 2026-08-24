@@ -118,7 +118,7 @@ export default function Home() {
             <Card
               title="QLoRA fine-tuning"
               description="Second project in a four-part ML competency roadmap."
-              meta="Planned"
+              meta="In progress"
             />
             <Card
               title="Paddy Doctor"
@@ -129,7 +129,7 @@ export default function Home() {
             <Card
               title="Swessen"
               description="Vector database built from scratch."
-              meta="Planned"
+              meta="In progress"
               href="https://github.com/BVChandrahaas/Swessen"
             />
           </div>
@@ -160,8 +160,11 @@ export default function Home() {
                     })}{" "}
                     · {post.readTime}
                   </p>
-                  <p className="text-base font-medium text-text-primary">
+                  <p className="text-base font-medium text-text-primary mb-1">
                     {post.title}
+                  </p>
+                  <p className="text-sm text-text-secondary">
+                    {post.excerpt}
                   </p>
                 </Link>
               ))}
