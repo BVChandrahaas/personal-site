@@ -27,13 +27,13 @@ export default function Home() {
               Resume
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/BVChandrahaas"
               className="border border-border-strong rounded-md px-3 py-1.5 text-text-secondary hover:text-text-primary"
             >
               GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/bvchandrahaas"
               className="border border-border-strong rounded-md px-3 py-1.5 text-text-secondary hover:text-text-primary"
             >
               LinkedIn
