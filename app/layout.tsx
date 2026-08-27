@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const title = "B.V. Chandrahaas | AI/ML Engineer";
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-background text-text-primary">
         {children}
+        <Analytics />
       </body>
     </html>
   );
