@@ -11,7 +11,7 @@ const links = [
 export default function Nav() {
   return (
     <header className="border-b border-border">
-      <div className="mx-auto max-w-3xl flex items-center justify-between px-6 py-4">
+      <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
         <Link href="/" className="text-base font-medium text-text-primary">
           chandrahaas.dev
         </Link>
