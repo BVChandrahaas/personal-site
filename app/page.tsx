@@ -2,6 +2,7 @@ import Link from "next/link";
 import Nav from "@/components/Nav";
 import Card from "@/components/Card";
 import GitHubActivity from "@/components/GitHubActivity";
+import CurrentlyReading from "@/components/CurrentlyReading";
 import { getAllPosts } from "@/lib/blog";
 import { getLatestGitHubEvents } from "@/lib/github";
 
@@ -213,6 +214,7 @@ export default async function Home() {
         {/* Right Sidebar Column (Sticky on Wide Screens) */}
         <aside className="xl:col-span-4">
           <div className="xl:sticky xl:top-8 space-y-6">
+            <CurrentlyReading />
             <GitHubActivity events={githubEvents} username="BVChandrahaas" />
           </div>
         </aside>
