@@ -26,7 +26,7 @@ export default async function ArticlePage({
     <>
       <Nav />
       <main className="mx-auto max-w-2xl px-6 py-10 flex-1 w-full">
-        <Link href="/blog" className="text-base text-text-accent mb-5 inline-block">
+        <Link href="/blog" className="text-base text-text-accent mb-5 block w-fit">
           ← Back to blog
         </Link>
 

@@ -52,12 +52,86 @@ body {
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
-.prose-article p {
+.prose-article {
   font-family: var(--font-voice), Georgia, serif;
   font-size: 19px;
   line-height: 1.8;
   color: var(--text-primary);
+}
+
+.prose-article p {
   margin: 0 0 1.1em;
+}
+
+.prose-article ul,
+.prose-article ol {
+  margin: 0 0 1.1em;
+  padding-left: 1.4em;
+}
+
+.prose-article ul {
+  list-style: disc;
+}
+
+.prose-article ol {
+  list-style: decimal;
+}
+
+.prose-article li {
+  margin-bottom: 0.4em;
+}
+
+.prose-article li::marker {
+  color: var(--text-muted);
+}
+
+.prose-article strong {
+  font-weight: 600;
+}
+
+.prose-article code {
+  font-size: 0.85em;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+.prose-article pre {
+  margin: 0 0 1.4em;
+  padding: 1em 1.2em;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow-x: auto;
+  line-height: 1.6;
+}
+
+.prose-article pre code {
+  font-size: 13px;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.prose-article table {
+  width: 100%;
+  margin: 0 0 1.4em;
+  border-collapse: collapse;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.prose-article th,
+.prose-article td {
+  text-align: left;
+  padding: 0.5em 0.75em;
+  border-bottom: 1px solid var(--border);
+}
+
+.prose-article th {
+  font-weight: 600;
+  border-bottom-color: var(--border-strong);
 }
 
 .prose-article h2 {
