@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://chandrahaas.dev"),
   title,
   description,
+  verification: {
+    google: "3mYj65rNe3gtqNiK5Xw6-aN4kq8ccYr57iS7ohEepBg",
+  },
   openGraph: {
     type: "website",
     url: "https://chandrahaas.dev",
